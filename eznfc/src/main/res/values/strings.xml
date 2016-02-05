@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">eznfc</string>
+
+    <string name="default_mime_type">text/plain</string>
+
+    <!-- errors -->
+    <string name="nfc_not_available">Nfc is not supported by this device</string>
+    <string name="nfc_not_enabled">Nfc is not turned on</string>
+    <string name="unknown_mime_type">Specified mime type is unknown</string>
+    <string name="unknown_error">Unknown error occurred</string>
+    <string name="illegal_method_access">Handling method has lower access level than required</string>
+    <string name="invocation_error">Cannot invoke defined method, have you correctly defined the parameters?</string>
+</resources>

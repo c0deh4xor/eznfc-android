@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">EzNfcAndroid</string>
+
+    <!-- main activity -->
+    <string name="welcome">
+        Welcome, this is an example application that shows how to use eznfc library for Android.
+    </string>
+    <string name="beam_button">Beam default message</string>
+    <string name="write_button">Write to tag</string>
+    <string name="dispatcher_button">Read tag or receive beam</string>
+
+    <!-- write activity -->
+    <string name="write_instructions">
+        This is an example tag write activity, tap an NFC tag and it will write the default message
+    </string>
+
+    <!-- beam activity -->
+    <string name="beam_instructions">
+        This is an example beam activity, tap your phone with another one and it will send the default message
+    </string>
+
+    <!-- dispatch activity -->
+    <string name="dispatch_instructions">
+        This is an example NFC foreground dispatcher, it is used to read an NFC tag or a beam. Try it to read the contents.
+    </string>
+
+    <!-- app -->
+    <string name="default_message">Hello, world!</string>
+
+    <!-- errors -->
+    <string name="nfc_unavailable_message">This phone does not support NFC</string>
+    <string name="nfc_disabled_message">NFC is disabled, turn it on and try again</string>
+</resources>
